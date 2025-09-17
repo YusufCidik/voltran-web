@@ -67,7 +67,7 @@ const files = [
   { key: "vrc_element_2", url: "GLB/vrc_element_2.glb", type: "glb" },
   { key: "vrc_element_3", url: "GLB/vrc_element_3.glb", type: "glb" },
   { key: "frc_element_1", url: "GLB/frc_element_1.glb", type: "glb" },
-  { key: "light", url: "texture/light.hdr", type: "hdr" },
+  { key: "light", url: "/texture/light.hdr", type: "hdr" },
   { key: "baseColor", url: "texture/baseColor.jpg", type: "texture" },
   { key: "metallic", url: "texture/metallic.jpg", type: "texture" },
   { key: "normal", url: "texture/normal.png", type: "texture" },
