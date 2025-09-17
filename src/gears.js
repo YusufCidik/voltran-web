@@ -27,7 +27,7 @@ if (window.innerWidth >= 768) {
   
   const rgbeLoader = new THREE.RGBELoader();
   rgbeLoader.setDataType(THREE.UnsignedByteType);
-  rgbeLoader.load('/texture/light.hdr', (texture) => {
+  rgbeLoader.load('texture/light.hdr', (texture) => {
       texture.mapping = THREE.EquirectangularReflectionMapping;
       scene.environment = texture;
   });
