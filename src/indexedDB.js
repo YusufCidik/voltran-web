@@ -61,17 +61,17 @@ async function cacheFiles(fileList) {
 }
 
 const files = [
-  { key: "large-gear", url: "/GLB/large-gear.glb", type: "glb" },
-  { key: "small-gear", url: "/GLB/small-gear.glb", type: "glb" },
-  { key: "vrc_element_1", url: "/GLB/vrc_element_1.glb", type: "glb" },
-  { key: "vrc_element_2", url: "/GLB/vrc_element_2.glb", type: "glb" },
-  { key: "vrc_element_3", url: "/GLB/vrc_element_3.glb", type: "glb" },
-  { key: "frc_element_1", url: "/GLB/frc_element_1.glb", type: "glb" },
-  { key: "light", url: "/texture/light.hdr", type: "hdr" },
-  { key: "baseColor", url: "/texture/baseColor.jpg", type: "texture" },
-  { key: "metallic", url: "/texture/metallic.jpg", type: "texture" },
-  { key: "normal", url: "/texture/normal.png", type: "texture" },
-  { key: "roughness", url: "/texture/roughness.jpg", type: "texture" },
+  { key: "large-gear", url: "GLB/large-gear.glb", type: "glb" },
+  { key: "small-gear", url: "GLB/small-gear.glb", type: "glb" },
+  { key: "vrc_element_1", url: "GLB/vrc_element_1.glb", type: "glb" },
+  { key: "vrc_element_2", url: "GLB/vrc_element_2.glb", type: "glb" },
+  { key: "vrc_element_3", url: "GLB/vrc_element_3.glb", type: "glb" },
+  { key: "frc_element_1", url: "GLB/frc_element_1.glb", type: "glb" },
+  { key: "light", url: "texture/light.hdr", type: "hdr" },
+  { key: "baseColor", url: "texture/baseColor.jpg", type: "texture" },
+  { key: "metallic", url: "texture/metallic.jpg", type: "texture" },
+  { key: "normal", url: "texture/normal.png", type: "texture" },
+  { key: "roughness", url: "texture/roughness.jpg", type: "texture" },
 ];
 
 if (window.innerWidth >= 768) { cacheFiles(files).then(() => console.log("Cache Rate: 100%")); }
