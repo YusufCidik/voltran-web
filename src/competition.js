@@ -1,6 +1,6 @@
 let loadElements = [
   { 
-    url: '/GLB/vrc_element_1.glb',
+    url: 'GLB/vrc_element_1.glb',
     scale: [30, 30, 30],
     position: [0, 0, -4],
     rotation: [0, 45, 45],
@@ -24,7 +24,7 @@ let loadElements = [
 
 let FRCloadElements = [
   { 
-    url: '/GLB/frc_element_1.glb',
+    url: 'GLB/frc_element_1.glb',
     scale: [0.14, 0.14, 0.14],
     position: [0, 0, -0.2],
     rotation: [0, 45, 45],
