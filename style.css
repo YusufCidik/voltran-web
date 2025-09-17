@@ -1063,7 +1063,7 @@ section.row.competition {
   flex: 1;
   min-width: 300px;
   height: 470px;
-  background: url("/photos/photo6.png") no-repeat;
+  background: url("photos/photo6.png") no-repeat;
   background-size: cover;
   background-position: center 0%;
   overflow: hidden;
