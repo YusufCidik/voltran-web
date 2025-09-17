@@ -35,7 +35,7 @@ if (window.innerWidth <= 768) {
 
   // Modellerin URL'lerini belirt
   const files = {
-    "large-gear": "/GLB/large-gear.glb",
+    "large-gear": "GLB/large-gear.glb",
   };
 
   // GLTF modelleri yükle ve sahneye ekle
