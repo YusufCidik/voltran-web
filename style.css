@@ -1893,6 +1893,10 @@ section.row.competition {
   .extra {
     order: 3;
   }
+
+  .social-icon {
+    display: none;
+  }
 }
 
 .dropdown {
