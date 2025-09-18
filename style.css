@@ -1877,7 +1877,7 @@ section.row.competition {
 
   #vrc2 {
     display: block;
-    background-image: url("/photos/photo6.png");
+    background-image: url("photos/photo6.png");
     background-size: cover;
     background-position: center;
   }
