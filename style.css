@@ -1690,7 +1690,16 @@ section.row.competition {
   display: flex;
   flex-direction: row;
   gap: 15px;
+}
 
+/* Footer içindeki sosyal medya alanı */
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
 }
 
 @media (max-width: 900px) {
@@ -1981,15 +1990,6 @@ section.row.competition {
   display: block;
 }
 
-/* Footer içindeki sosyal medya alanı */
-.social-icons {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0;
-}
 
 .clip {
   border: 0;
