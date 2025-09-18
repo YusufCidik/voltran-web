@@ -1617,6 +1617,7 @@ section.row.competition {
   outline: none;
   z-index: 1;
   position: relative;
+  resize: none;
 }
 
 .input-box textarea {
