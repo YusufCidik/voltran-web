@@ -1904,7 +1904,7 @@ section.row.competition {
   }
 
   .social-icons {
-    display: none;
+    display: none !important;
   }
 }
 
